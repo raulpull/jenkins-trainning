@@ -6,12 +6,12 @@ pipeline {
    stages {
       stage('Hello') {
          steps {
-            echo "Hello ${params.Name}"
+            echo "Hi ${params.Name}"
          }
       }
       stage('Bye') {
          steps {
-            echo "Bye ${params.Name}"
+            echo "See you ${params.Name}"
          }
       }
    }
